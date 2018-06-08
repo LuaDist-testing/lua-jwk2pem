@@ -28,7 +28,7 @@ local function encode_length(length)
 	elseif length < 0x100 then
 		return string.char(0x81, length);
 	elseif length < 0x10000 then
-		return string.char(0x82, length/0x100, length%0x100);
+		return string.char(0x82, math.floor(length/0x100), length%0x100);
 	end
 	error("Can't encode lengths over 65535");
 end
