@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "lua-jwk2pem"
-version = "0.9.1-1"
+version = "0.9.1-2"
 -- LuaDist source
 source = {
-  tag = "0.9.1-1",
+  tag = "0.9.1-2",
   url = "git://github.com/LuaDist-testing/lua-jwk2pem.git"
 }
 -- Original source
@@ -15,7 +15,7 @@ source = {
 description = {
 	summary = "Convert private keys from JWK format to PEM",
 	homepage = "http://code.zash.se/lua-jwk2pem/",
-	license = "MIT/X11"
+	license = "MIT"
 }
 dependencies = {}
 build = {
